@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "msg-webhook"
+name = "msg_webhook_to_telegram"
 version = "0.1.0"
 description = "A Telegram WebHook service for message forwarding"
 authors = ["Your Name <your.email@example.com>"]
