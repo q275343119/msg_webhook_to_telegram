@@ -1,6 +1,10 @@
 # Telegram Webhook Service
 
+English | [简体中文](./README.md)
+
 This is a FastAPI-based webhook service that receives HTTP requests and forwards messages to Telegram. The service provides a secure API interface that supports sending messages to specified Telegram users via webhook.
+
+
 
 ## Features
 
@@ -19,7 +23,7 @@ This is a FastAPI-based webhook service that receives HTTP requests and forwards
 
 1. Clone the repository:
 ```bash
-git clone [repository_url]
+git clone https://github.com/q275343119/msg_webhook_to_telegram.git
 cd msg_webhook_to_telegram
 ```
 
@@ -115,4 +119,4 @@ The service may return the following error status codes:
 
 ## License
 
-[Add license information here] 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. 

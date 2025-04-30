@@ -1,5 +1,7 @@
 # Telegram Webhook 服务
 
+简体中文 | [English](./README_EN.md)
+
 这是一个基于 FastAPI 的 Webhook 服务，用于接收 HTTP 请求并将消息转发到 Telegram。该服务提供了安全的 API 接口，支持通过 webhook 方式发送消息到指定的 Telegram 用户。
 
 ## 功能特点
@@ -19,7 +21,7 @@
 
 1. 克隆项目到本地：
 ```bash
-git clone [项目地址]
+git clone https://github.com/q275343119/msg_webhook_to_telegram.git
 cd msg_webhook_to_telegram
 ```
 
@@ -115,4 +117,5 @@ curl -X POST "http://localhost:8000/webhook" \
 
 ## 许可证
 
-[在此添加许可证信息]
+本项目采用 MIT 许可证，详情请参见 [LICENSE](LICENSE) 文件。
+
